@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <title>Alia Alden</title>
-    <link rel="icon" href="/assets/images/favicon.ico" sizes="any" />
-    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <link rel="icon" href="assets/images/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
     <link rel="manifest" href="manifest.json" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,31 +16,35 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body class="container">
-    <nav class="navigation">
-      <div class="pfp-and-name">
-        <img class="pfp" src="/assets/images/pfp-100.png" alt="Alia Alden's profile picture" />
-        <span class="name">Alia Alden</span>
-      </div>
-      <ul class="links">
-        <li>
-          <a class="link" href="#socials">Socials</a>
-        </li>
-        <li>
-          <a class="link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
+  <body class="body-container">
+    <div class="navigation-container">
+      <nav class="navigation">
+        <div class="pfp-and-name">
+          <img class="pfp" src="assets/images/pfp.png" alt="Alia Alden's profile picture" />
+          <span class="name">Alia Alden</span>
+        </div>
+        <ul class="links">
+          <li>
+            <a class="link" href="#socials">Socials</a>
+          </li>
+          <li>
+            <a class="link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <main class="main">
       <section id="socials" class="section socials">
         <div class="content">
           <h1 class="heading">Socials</h1>
           <ul class="grid">
             <li class="social">
-              <a class="link" href="https://www.youtube.com/@PinayPrincess">
-                <img class="logo" src="/assets/images/youtube.svg" alt="YouTube" />
+              <a class="link" href="https://www.youtube.com/@PinayPrincess" target="_blank">
+                <div class="logo-container">
+                  <img class="logo" src="assets/images/youtube.svg" alt="YouTube" />
+                </div>
                 <span class="title">YouTube</span>
                 <span class="subtitle">
                   The Pinay Princess<br />
@@ -49,36 +53,46 @@
               </a>
             </li>
             <li class="social">
-              <a class="link" href="https://www.facebook.com/profile.php?id=61567904576952">
-                <img class="logo" src="/assets/images/facebook.svg" alt="Facebook" />
+              <a class="link" href="https://www.facebook.com/profile.php?id=61567904576952" target="_blank">
+                <div class="logo-container">
+                  <img class="logo" src="assets/images/facebook.svg" alt="Facebook" />
+                </div>
                 <span class="title">Facebook</span>
                 <span class="subtitle">The Pinay Princess</span>
               </a>
             </li>
             <li class="social">
-              <a class="link" href="https://www.instagram.com/aliaaldenofficial">
-                <img class="logo" src="/assets/images/instagram.svg" alt="Instagram" />
+              <a class="link" href="https://www.instagram.com/aliaaldenofficial" target="_blank">
+                <div class="logo-container">
+                  <img class="logo" src="assets/images/instagram.svg" alt="Instagram" />
+                </div>
                 <span class="title">Instagram</span>
                 <span class="subtitle">aliaaldenofficial</span>
               </a>
             </li>
             <li class="social">
-              <a class="link" href="https://www.instagram.com/aliaaldenofficial">
-                <img class="logo" src="/assets/images/tiktok.svg" alt="TikTok" />
+              <a class="link" href="https://www.tiktok.com/@alia_alden" target="_blank">
+                <div class="logo-container">
+                  <img class="logo" src="assets/images/tiktok.svg" alt="TikTok" />
+                </div>
                 <span class="title">TikTok</span>
                 <span class="subtitle">@alia_alden</span>
               </a>
             </li>
             <li class="social fiverr">
-              <a class="link" href="https://www.fiverr.com/alia1230">
-                <img class="logo" src="/assets/images/fiverr-green.svg" alt="Fiverr" />
+              <a class="link" href="https://www.fiverr.com/alia1230" target="_blank">
+                <div class="logo-container">
+                  <img class="logo" alt="Fiverr" />
+                </div>
                 <span class="title">Fiverr</span>
                 <span class="subtitle">alia1230</span>
               </a>
             </li>
             <li class="social">
-              <a class="link" href="https://www.fiverr.com/alia1230">
-                <img class="logo" src="/assets/images/paypal.svg" alt="PayPal" />
+              <a class="link" href="https://paypal.me/aliaaldenofficial" target="_blank">
+                <div class="logo-container">
+                  <img class="logo" src="assets/images/paypal.svg" alt="PayPal" />
+                </div>
                 <span class="title">PayPal</span>
                 <span class="subtitle">aliaaldenofficial</span>
               </a>
@@ -98,7 +112,7 @@
                 href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#109;&#101;&#46;&#97;&#108;&#105;&#97;&#97;&#108;&#100;&#101;&#110;&#46;&#99;&#111;&#109;"
                 >&#105;&#110;&#102;&#111;&#64;&#109;&#101;&#46;&#97;&#108;&#105;&#97;&#97;&#108;&#100;&#101;&#110;&#46;&#99;&#111;&#109;</a
               >
-              to discuss opportunities or ask a question.
+              to discuss opportunities.
             </span>
             <span>My brand manager or I will be in contact with you.</span>
           </div>
