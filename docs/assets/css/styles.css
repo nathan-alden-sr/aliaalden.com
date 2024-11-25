@@ -78,9 +78,9 @@ h6 {
     --theme-content-background-odd: var(--theme-content-background);
     --theme-navigation-link: var(--theme-color-white);
     --theme-navigation-link-hover: var(--theme-color-complementary);
-    --theme-social-link: var(--theme-color-black);
-    --theme-social-link-hover: var(--theme-color-primary);
-    --theme-social-fiverr-logo-url: url("../images/fiverr-green.svg");
+    --theme-links-link: var(--theme-color-black);
+    --theme-links-link-hover: var(--theme-color-primary);
+    --theme-links-fiverr-logo-url: url("../images/fiverr-green.svg");
     --theme-contact-link: var(--theme-color-primary);
     --theme-contact-link-hover: var(--theme-color-primary);
   }
@@ -95,9 +95,9 @@ h6 {
     --theme-content-background-odd: var(--theme-content-background);
     --theme-navigation-link: var(--theme-color-white);
     --theme-navigation-link-hover: var(--theme-color-complementary);
-    --theme-social-link: var(--theme-color-white);
-    --theme-social-link-hover: var(--theme-color-complementary);
-    --theme-social-fiverr-logo-url: url("../images/fiverr-white.svg");
+    --theme-links-link: var(--theme-color-white);
+    --theme-links-link-hover: var(--theme-color-complementary);
+    --theme-links-fiverr-logo-url: url("../images/fiverr-white.svg");
     --theme-contact-link: var(--theme-color-complementary);
     --theme-contact-link-hover: var(--theme-color-complementary);
   }
@@ -166,12 +166,12 @@ h1 {
     background-color: var(--theme-content-background-odd);
   }
 
-  &.socials .link {
+  &.links .link {
     &:hover {
-      color: var(--theme-social-link-hover);
+      color: var(--theme-links-link-hover);
     }
 
-    color: var(--theme-social-link);
+    color: var(--theme-links-link);
   }
 
   &.contact .link {
@@ -224,7 +224,7 @@ h1 {
   }
 }
 
-.section.socials {
+.section.links {
   .grid {
     display: grid;
     align-items: start;
@@ -248,7 +248,7 @@ h1 {
   }
 
   .fiverr .logo {
-    content: var(--theme-social-fiverr-logo-url);
+    content: var(--theme-links-fiverr-logo-url);
   }
 }
 
@@ -291,7 +291,7 @@ h1 {
     }
   }
 
-  .socials {
+  .section.links {
     .grid {
       flex-direction: column;
       gap: 5em;
@@ -365,7 +365,7 @@ h1 {
     font-size: 2em;
   }
 
-  .socials {
+  .section.links {
     .grid {
       flex-direction: column;
       grid-template-columns: repeat(2, 1fr);
@@ -409,7 +409,7 @@ h1 {
 }
 
 @media only screen and (min-width: 800px) {
-  .socials {
+  .section.links {
     .grid {
       grid-template-columns: repeat(3, 1fr);
     }
